@@ -1,0 +1,11 @@
+#set($pageTitle="测试")
+#set($pagePath="/index")
+
+<!DOCTYPE html>
+<html>
+<head>
+  #parse("/app/commons/page-head/index.vm")
+</head>
+  <div class="test">dsds${name}</div>
+  #parse("/app/commons/page-scripts/index.vm")
+</html>
