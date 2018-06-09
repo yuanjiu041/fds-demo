@@ -6,7 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const entry = {}
 const root = path.join(__dirname, '../')
 const srcPath = path.join(root, 'app')
-const buildPath = path.join(root, 'build')
+const buildPath = path.join(root, 'public/build')
 
 glob.sync('{common,pages}/**/*.js', {
   cwd: srcPath
@@ -26,7 +26,7 @@ const config = {
   resolve: {
     alias: {
       Components: path.join(srcPath, 'components'),
-      common: path.join(srcPath, 'commons')
+      Common: path.join(srcPath, 'common')
     }
   },
   module: {

@@ -4,7 +4,7 @@ module.exports = {
 
   viewFolder: '.',
 
-  publicFolder: '.',
+  publicFolder: './public',
 
   mockFolder: '.',
 

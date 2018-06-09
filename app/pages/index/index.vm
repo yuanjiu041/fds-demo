@@ -4,8 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  #parse("/app/commons/page-head/index.vm")
+  #parse("/app/common/mods/page-head/index.vm")
 </head>
-  <div class="test">dsds${name}</div>
-  #parse("/app/commons/page-scripts/index.vm")
+  <div class="test">$!{desc}</div>
+  <p style="color: red">css is not onload!!!</p>
+  #parse("/app/common/mods/page-scripts/index.vm")
 </html>

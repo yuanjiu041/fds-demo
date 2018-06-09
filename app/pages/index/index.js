@@ -1,3 +1,4 @@
+require('Common/styles/index.less')
 require('./index.less')
 
-console.log('ss')
+console.log('js is onload!!!')
